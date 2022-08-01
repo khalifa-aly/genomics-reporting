@@ -26,7 +26,9 @@ Title: "Genomic Analysis"
 Description: "The details about a specific analysis that was performed in this GenomicStudy."
 * extension contains ChangeType named changeType 0..*
 * extension contains GenomeBuild named genomeBuild 0..1
-//* extension[genomeBuild].valueCodeableConcept from 
+//* extension[genomeBuild].valueCodeableConcept from the LOINC answer list
+* extension contains RegionsStudied named regionsStudied 0..*
+* extension contains RegionsCalled named regionsCalled 0..*
 * instantiatesCanonical only Canonical(PlanDefinition)
 //* instantiatesUri 0..0
 * basedOn 0..0
@@ -56,3 +58,15 @@ Id: genome-build
 Title: "Genome Build"
 Description: "Genome build that is used in this analysis"
 * value[x] only CodeableConcept
+
+Extension: RegionsStudied
+Id: regions-studied
+Title: "Regions Studied"
+Description: "The genomic regions to be studied in the analysis (BED file)"
+* value[x] only Reference(DocumentReference or Observation)
+
+Extension: RegionsCalled
+Id: regions-called
+Title: "Regions Called"
+Description: "Genomic regions actually called in the analysis event (BED file)"
+* value[x] only Reference(DocumentReference or Observation)
