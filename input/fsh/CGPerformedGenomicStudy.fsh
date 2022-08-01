@@ -9,3 +9,9 @@ Description: "(NOTE: Reference to GenomicStudy R5 proposal, and intent to migrat
 * bodySite 0..0
 * outcome 0..0
 * report 0..0
+* complication 0..0
+* complicationDetail 0..0
+* followUp 0..0
+* focalDevice 0..0
+* usedReference 0..0
+* usedCode 0..0
