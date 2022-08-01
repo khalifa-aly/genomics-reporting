@@ -25,10 +25,10 @@ Id: genomic-analysis
 Title: "Genomic Analysis"
 Description: "The details about a specific analysis that was performed in this GenomicStudy."
 * extension contains ChangeType named changeType 0..*
-* extension contains GenomeBuild named genomeBuild 0..1
+    and GenomeBuild named genomeBuild 0..1
 //* extension[genomeBuild].valueCodeableConcept from the LOINC answer list
-* extension contains RegionsStudied named regionsStudied 0..*
-* extension contains RegionsCalled named regionsCalled 0..*
+    and RegionsStudied named regionsStudied 0..*
+    and RegionsCalled named regionsCalled 0..*
 * instantiatesCanonical only Canonical(PlanDefinition)
 //* instantiatesUri 0..0
 * basedOn 0..0
