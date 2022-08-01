@@ -22,7 +22,7 @@ Parent: Procedure
 Id: genomic-analysis
 Title: "Genomic Analysis"
 Description: "The details about a specific analysis that was performed in this GenomicStudy."
-* instantiatesCanonical = Canonical(PlanDefinition)
+* instantiatesCanonical only Canonical(http://hl7.org/fhir/StructureDefinition/PlanDefinition)
 //* instantiatesUri 0..0
 * basedOn 0..0
 * partOf 0..0
@@ -32,7 +32,7 @@ Description: "The details about a specific analysis that was performed in this G
 * reasonReference 0..0
 * bodySite 0..0
 * outcome 0..0
-* report Reference(DocumentReference)
+* report only Reference(DocumentReference)
 * complication 0..0
 * complicationDetail 0..0
 * followUp 0..0
