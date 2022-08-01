@@ -24,8 +24,8 @@ Parent: Procedure
 Id: genomic-analysis
 Title: "Genomic Analysis"
 Description: "The details about a specific analysis that was performed in this GenomicStudy."
-* extensions contains ChangeType named changeType 0..*
-* extensions contains GenomeBuild named genomeBuild 0..1
+* extension contains ChangeType named changeType 0..*
+* extension contains GenomeBuild named genomeBuild 0..1
 //* extension[genomeBuild].valueCodeableConcept from 
 * instantiatesCanonical only Canonical(PlanDefinition)
 //* instantiatesUri 0..0
