@@ -6,6 +6,7 @@ Description: "(NOTE: Reference to GenomicStudy R5 proposal, and intent to migrat
                 A Genomic Study is a set of analysis performed to analyze and generate genomic data."
 * instantiatesCanonical 0..0
 //* instantiatesUri 0..0
+// Placeholder for constraining code to GenoimcStudy.type valueSet as soon as it is developed
 * partOf 0..0
 * bodySite 0..0
 * outcome 0..0
@@ -26,6 +27,7 @@ Description: "The details about a specific analysis that was performed in this G
 //* instantiatesUri 0..0
 * basedOn 0..0
 * partOf 0..0
+// Placeholder for constraining code to GenomicStudy.analysis.methodType valueSet as soon as it is developed
 * encounter 0..0
 * recorder 0..0
 * reasonCode 0..0
