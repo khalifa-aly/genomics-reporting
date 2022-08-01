@@ -19,10 +19,9 @@ Description: "(NOTE: Reference to GenomicStudy R5 proposal, and intent to migrat
 
 Profile: GenomicAnalysis
 Parent: Procedure
-Id: performed-genomic-study
-Title: "Performed Genomic Study"
-Description: "(NOTE: Reference to GenomicStudy R5 proposal, and intent to migrate in a future R5-based IG). 
-                A Genomic Study is a set of analysis performed to analyze and generate genomic data."
+Id: genomic-analysis
+Title: "Genomic Analysis"
+Description: "The details about a specific analysis that was performed in this GenomicStudy."
 * instantiatesCanonical Reference(PlanDefinition)
 //* instantiatesUri 0..0
 * basedOn 0..0
