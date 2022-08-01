@@ -4,6 +4,7 @@ Id: performed-genomic-study
 Title: "Performed Genomic Study"
 Description: "(NOTE: Reference to GenomicStudy R5 proposal, and intent to migrate in a future R5-based IG). 
                 A Genomic Study is a set of analysis performed to analyze and generate genomic data."
+* contained only GenomicAnalysis
 * instantiatesCanonical 0..0
 //* instantiatesUri 0..0
 // Placeholder for constraining code to GenoimcStudy.type valueSet as soon as it is developed
