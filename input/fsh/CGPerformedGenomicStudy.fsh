@@ -1,5 +1,5 @@
 Profile: PerformedGenomicStudy
-Parent: 
+Parent: Procedure
 Id: performed-genomic-study
 Title: "Performed Genomic Study"
 Description: "(NOTE: Reference to GenomicStudy R5 proposal, and intent to migrate in a future R5-based IG). 
