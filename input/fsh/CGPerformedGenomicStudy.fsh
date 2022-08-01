@@ -70,3 +70,9 @@ Id: regions-called
 Title: "Regions Called"
 Description: "Genomic regions actually called in the analysis event (BED file)"
 * value[x] only Reference(DocumentReference or Observation)
+
+Extension: PerformedGenomicStudy-Ext
+Id: PerformedGenomicStudy-Ext
+Title: "Performed Genomic Study Extension"
+Description: "An extension to reference PerformedGenomicStudy profile"
+* value[x] only Reference(PerformedGenomicStudy)
