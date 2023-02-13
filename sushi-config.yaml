@@ -1,7 +1,7 @@
 id: genomics-reporting
 canonical: http://hl7.org/fhir/uv/genomics-reporting
 packageId: hl7.fhir.uv.genomics-reporting
-version: 2.1.0-SNAPSHOT
+version: 2.1.0-SNAPSHOT-R5
 name: GenomicsReporting
 title: Genomics Reporting Implementation Guide
 status: active
@@ -12,12 +12,12 @@ publisher:
 jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
 description: Guidelines for reporting of clinical genomics results using HL7 FHIR.
 license: CC0-1.0
-fhirVersion: 4.0.1
+fhirVersion: 5.0.0
 parameters:
   apply-publisher: true
   apply-version: true
   no-narrative: [RelatedArtifact/*]
-copyrightYear: 2022+
+copyrightYear: 2023+
 releaseLabel: trial-use
 
 pages:
